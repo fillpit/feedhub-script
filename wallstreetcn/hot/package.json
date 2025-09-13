@@ -1,0 +1,30 @@
+{
+  "name": "route-------------",
+  "version": "1.0.0",
+  "description": "华尔街见闻 - 最热文章",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "routeConfig": {
+      "name": "华尔街见闻 - 最热文章",
+      "path": "/wallstreetcn/hot",
+      "method": "GET",
+      "description": "华尔街见闻 - 最热文章",
+      "refreshInterval": 60,
+      "params": [
+          {
+              "name": "period",
+              "type": "string",
+              "required": false,
+              "defaultValue": "day",
+              "description": " 时期，可选 day 即 当日 或 week 即 当周，默认为当日"
+          }
+      ]
+  }
+}
