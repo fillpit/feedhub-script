@@ -1,9 +1,4 @@
 /**
- * 动态路由脚本主文件
- * 这是您的自定义脚本入口文件
- */
-
-/**
  * 主函数 - 脚本的入口点
  * @param {Object} context - 脚本执行上下文
  * @returns {Object|Array} RSS格式的数据或文章数组
